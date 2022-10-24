@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*utility */
+.logo {
+    display: inline-block;
+    font-size: 32px;
+}
+
+.text-primary {
+    color: orange;
+    font-weight: lighter;
+}
+
+#container {
+    padding: 1% 5%;
+}
+
+.w-25 {
+    width: 100px;
+    margin: 10px 0;
+
+}
+
+.w-50 {
+    width: 100px;
+    height: 2px;
+    margin: 10px 0;
+    background: orange;
+    border: none;
+
+}
+
+.l-heading {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.main-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.main-heading hr {
+    margin: auto;
+
+}
+
+.main-heading p {
+    margin: 10px 0;
+}
+
+.btn-light {
+
+    background-color: transparent;
+    color: rgb(228, 220, 220);
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.overly {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scroll {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+    background: #333;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 2;
+    text-align: center;
+    color: #fff;
+}
+
+.scroll a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background: orange;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/*social icons*/
+.social-icons {
+    display: inline-block;
+    margin-left: 300px;
+
+}
+
+.social-icons ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons ul li {
+    display: inline;
+    padding: 3px 15px;
+    color: #333;
+}
+
+/*navbar*/
+#navbar {
+    background: #000;
+    color: #fff;
+    border-radius: 2px;
+    padding-left: 70px;
+    /* position: fixed; */
+    /* top: 0; */
+    z-index: 999;
+    width: 100%;
+}
+
+#navbar ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60%;
+    padding-right: 20px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 9px;
+}
+
+/*showcase*/
+
+#showcase {
+    background: #333 url(/imgs/united-arab-emirates-dubai-in-pictures-beautiful-places-to-photograph-dubai-frame.jpg)no-repeat center center/cover;
+
+
+}
+
+/*showcase content */
+#showcase .showcase-content {
+    display: inline-block;
+    width: 35%;
+    margin: 200px 100px;
+}
+
+#showcase .showcase-content p {
+
+    font-size: 1.3rem;
+}
+
+#showcase .showcase-content .showcase-logo {
+    color: #fff;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+/*showcase form*/
+#showcase .showcase-form {
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    width: 25%;
+    margin-left: 50px;
+}
+
+#showcase .showcase-form form {
+    margin-left: 20px;
+}
+
+#showcase .showcase-form form input {
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    border: none;
+    width: 60%;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+#showcase .showcase-form .btn-primary {
+    background: orange;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+#showcase .showcase-form .heading {
+    text-align: center;
+    padding: 10px;
+    background: rgb(226, 225, 225);
+}
+
+/*social media*/
+
+#social {
+    margin: 30px 0;
+    padding: 30px;
+}
+
+/*social content*/
+#social .social-content {
+    display: inline-block;
+    width: 30%;
+}
+
+#social .social-content p {
+    color: #333;
+    margin-top: 10px;
+
+}
+
+
+
+/*about*/
+#about {
+    margin: 20px 0;
+    background: rgb(226, 225, 225);
+    box-shadow: 5px 5px 5px #8888;
+    padding: 20px 0;
+}
+
+#about .tabs {
+    display: inline-block;
+    margin: 20px 10px;
+    width: 23%;
+}
+
+#about .tabs .box {
+    height: 80px;
+    width: 75px;
+    background: #444;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#about .tabs .box p {
+    margin: 30px 0;
+}
+
+#about .tabs>:first-child {
+    background: orange;
+}
+
+#about .about-content {
+    display: inline-block;
+    width: 25%;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+#about .about-content p {
+    margin: 20px 0;
+
+
+}
+
+#about .about-photo {
+    display: inline-block;
+    width: 20%;
+    margin-left: 300px;
+
+}
+
+#about .about-photo img {
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+    border-top-left-radius:
+        10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*features*/
+#features {
+    margin: 80px 50px;
+    padding: 40px;
+}
+
+#features .image {
+    display: inline-block;
+    width: 40%;
+
+
+}
+
+#features .image img {
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 2px 10px #888889;
+}
+
+#features .features-content {
+    float: right;
+    width: 35%;
+    margin-left: 150px;
+
+}
+
+#features .features-content .title-icons {
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+#features .features-content .title-icons ul {
+    list-style: none;
+}
+
+#features .features-content .title-icons ul li {
+    padding: 8px 0;
+}
+
+#features .features-content .title-icons ul li i {
+    color: orange;
+    margin: 15px 0 20px 0;
+
+}
+
+#features .features-content .title-content {
+    float: right;
+    margin-top: 10px;
+}
+
+#features .features-content .title-content .text {
+    padding: 5px 0;
+}
+
+/*standard*/
+#standard {
+    margin: 40px;
+    background: rgb(226, 225, 225);
+    overflow: hidden;
+    padding: 30px;
+}
+
+#standard .standard-content {
+    float: left;
+    width: 50%;
+    margin: 10px;
+
+}
+
+#standard .standard-image {
+    float: right;
+    margin: 20px;
+}
+
+#standard .standard-image img {
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 2px 10px #888889;
+}
+
+#why {
+    margin: 40px;
+    overflow: hidden;
+}
+#why .why-cards {
+    margin: 40px 50px;
+    text-align: center;
+
+}
+
+#why .why-cards .card-1 {
+    float: left;
+    width: 25%;
+
+}
+
+#why .why-cards .card-2 {
+    display: inline-block;
+    width: 25%;
+}
+
+#why .why-cards .card-3 {
+    float: right;
+    width: 25%;
+
+}
+
+#why .why-cards i {
+    color: orange;
+    text-align: center;
+    margin: 10px;
+    padding: 12px 60px;
+}
+
+#why .why-cards p {
+    margin-top: 15px;
+    color: #444;
+}
+
+/*pricing*/
+.pricing {
+    background: rgb(226, 225, 225);
+    margin: 40px;
+    padding: 40px;
+}
+
+.pricing .pricing-cards {
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.pricing .pricing-cards> :first-child {
+    float: left;
+}
+
+.pricing .pricing-cards>:nth-child(2) {
+    display: inline-block;
+
+    margin-left: 8%;
+}
+
+.pricing .pricing-cards>:last-child {
+    float: right;
+}
+
+.pricing .pricing-cards .card {
+    width: 28%;
+    padding: 5px;
+    color: #fff;
+}
+
+.pricing .pricing-cards .card .head {
+    background: #000;
+    border-bottom: 3px solid orange;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.pricing .pricing-cards .card .head h2 {
+    margin: 10px 0;
+}
+
+.pricing .pricing-cards .card .head h3,
+p {
+    margin: 20px 0;
+}
+
+.pricing .pricing-cards .card ul {
+    background: #fff;
+    list-style: none;
+    text-align: center;
+    color: #888888;
+    padding: 10px 0;
+}
+
+.pricing .pricing-cards .card ul li {
+    padding: 10px 0;
+}
+
+/*what*/
+.what .what-content {
+    margin: 30px;
+
+}
+
+.what .what-content>:first-child {
+    float: left;
+    width: 25%;
+}
+
+.what .what-content>:nth-child(2) {
+    display: inline-block;
+    width: 25%;
+    margin-left: 15%;
+
+}
+
+.what .what-content>:last-child {
+    float: right;
+    width: 25%;
+}
+
+/* .what .what-content .what-card {
+    position: relative;
+
+} */
+.what .what-content .what-card {
+    padding: 5px;
+
+}
+
+.what .what-content .what-card p {
+    background: #e3e3e6;
+    padding: 5%;
+
+}
+
+.what .what-content .what-card img {
+    margin: 10% 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.what .what-bg {
+    background: url(/imgs/showcase.jpg) center center/cover no-repeat;
+    color: #fff;
+}
+
+.what .what-bg .overly {
+    padding: 40px;
+}
+
+.what .what-bg button {
+    margin-top: 40px;
+}
+
+/*contact*/
+.contact {
+    margin: 30px 0;
+}
+
+.contact .contact-content {
+    margin: 20px 0;
+}
+
+.contact .contact-form {
+    display: inline-block;
+    width: 40%;
+    margin-left: 70px;
+}
+
+.contact .contact-form input {
+    display: block;
+    margin: 10px 0 20px;
+    padding: 15px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.contact .contact-text {
+    float: right;
+    width: 40%;
+    margin-left: 70px;
+}
+
+.contact .contact-text textarea {
+    width: 100%;
+    resize: none;
+    font-size: 1rem;
+}
+
+.contact .btn {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+/*footer*/
+footer {
+    background: #000;
+    padding: 10px;
+}
+
+footer .social-icons {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+footer .social-icons i {
+    color: #fff;
+}

@@ -1,0 +1,171 @@
+#navbar {
+    text-align: center;
+}
+
+.logo {
+    display: block;
+}
+
+#navbar ul {
+    text-align: center;
+    margin: 0;
+}
+
+#navbar ul li {
+    display: block;
+}
+
+/* showcase */
+#showcase .showcase-content {
+    width: auto;
+    margin: 50px;
+}
+
+#showcase .showcase-form {
+    width: auto;
+}
+
+/* social */
+#social {
+    margin: 0;
+    padding: 0px;
+}
+
+#social .social-content {
+    width: 100%;
+}
+
+#social .social-icons {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+/* about */
+#about {
+    margin: 20px 0;
+    background: rgb(226, 225, 225);
+    box-shadow: 5px 5px 5px #8888;
+    padding: 20px 0;
+}
+
+#about .tabs {
+    display: block;
+    margin: 20px 10px;
+    width: 100%;
+
+}
+
+#about .tabs .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    width: 20%;
+}
+
+#about .about-content {
+    display: inline-block;
+    width: 75%;
+    align-items: center;
+    padding: 30px 20px;
+
+}
+
+#about .about-photo {
+    display: block;
+    width: 20%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+/* features */
+#features {
+    margin: 0;
+    padding: 40px;
+}
+
+#features .features-content {
+    float: right;
+    width: 100%;
+    margin-left: 150px;
+}
+
+#features .features-content {
+    float: none;
+
+    margin-left: 10px;
+}
+/* standard */
+#standard {
+    margin: 0px;
+
+}
+
+#standard .standard-content {
+    float: none;
+    width: 100%;
+    margin: 10px;
+}
+/* why */
+#why .why-cards {
+    margin: 0;
+}
+
+#why .why-cards .card-1,
+#why .why-cards .card-2,
+#why .why-cards .card-3 {
+    width: auto;
+}
+/* pricing */
+.pricing {
+    margin: 0px;
+}
+
+.pricing .pricing-cards .card {
+    width: 100%;
+}
+
+.pricing .pricing-cards> :first-child,
+.pricing .pricing-cards> :nth-child(2),
+.pricing .pricing-cards> :last-child {
+    float: none;
+}
+
+.pricing .pricing-cards> :nth-child(2) {
+    margin: 0;
+}
+/* what */
+.what .what-content {
+    margin: 0px;
+}
+
+.what .what-content>:first-child,
+.what .what-content>:last-child,
+.what .what-content>:nth-child(2) {
+    float: none;
+    width: 100%;
+}
+
+.what .what-content>:nth-child(2) {
+    margin: 0;
+}
+
+.what .what-content .what-card img {
+    margin: 0;
+}
+/* contact */
+
+.contact .contact-form {
+    display: block;
+    width: 90%;
+    margin: 0;
+}
+
+.contact .contact-text {
+    width: 90%;
+    float: none;
+    margin: 0%;
+}
+.contact .btn {
+    width: 100%;
+}

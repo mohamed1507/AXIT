@@ -1,0 +1,14 @@
+#social {
+    margin: 0;
+    padding: 0px;
+}
+
+.social-icons {
+   
+    margin-left: 0px; 
+}
+#social .social-icons {
+    display: block;
+    margin-left: 0px;
+
+}
